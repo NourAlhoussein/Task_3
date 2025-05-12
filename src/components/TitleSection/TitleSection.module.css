@@ -1,0 +1,50 @@
+.TitleStyle {
+  text-align: center;
+  margin-top: 100px;
+  color: #333333;
+}
+.BtnStyle {
+  background-color: white;
+  color: #333333;
+  font-size: 12px;
+  border: 2px solid #333333;
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-family: "Outfit", sans-serif;
+}
+.TitleSection {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+}
+.DescSection {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 20px;
+  width: 100%;
+}
+.description {
+  width: 70%;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .description {
+    width: 80%;
+  }
+  .TitleStyle {
+    margin-top: 65px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .TitleStyle {
+    margin-top: 48px;
+  }
+  .description {
+    width: 100%;
+  }
+}

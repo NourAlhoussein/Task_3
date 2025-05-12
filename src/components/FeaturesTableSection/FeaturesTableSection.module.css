@@ -1,0 +1,194 @@
+.tableSection {
+  overflow-x: auto;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  justify-content: center;
+  box-shadow: 4px 4px 0px #262626;
+  border: 2px solid #262626;
+  border-radius: 8px;
+  background-color: white;
+  margin: 60px auto auto auto;
+  padding: 50px;
+}
+.tableTitle {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  margin: auto;
+  background-color: #ffefe5;
+  color: #262626;
+  border-radius: 8px;
+  border: 2px solid #262626;
+}
+.tableTitle th {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-right: 1px solid #262626;
+  height: 100%;
+  padding: 0px 0px 0px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+}
+.tableInfo {
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  color: #262626;
+  border-radius: 8px;
+  border: 2px solid #262626;
+  margin-top: 30px;
+  background-color: #fffcfa;
+}
+
+.tableInfo tr {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+.tableInfo td {
+  padding: 24px 30px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  width: 20%;
+  border-right: 1px solid black;
+}
+.tableServices {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  color: #262626;
+  border-radius: 8px;
+  border: 2px solid #262626;
+  margin-top: 30px;
+  background-color: #fffcfa;
+}
+
+.tableServices tr {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+.tableServices td {
+  padding: 24px 30px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  width: 50%;
+  border-right: 1px solid black;
+}
+.titleItem {
+  flex: 1;
+}
+
+@media screen and (max-width: 1240px) and (min-width: 900px) {
+  .tableSection {
+    padding: 40px;
+  }
+  .tableTitle {
+    height: 45px;
+  }
+  .tableInfo td {
+    padding: 25px 12px;
+    font-size: 14px;
+  }
+  .tableTitle th {
+    font-size: 16px;
+    padding: 0px 0px 0px 12px;
+  }
+  .tableServices td {
+    padding: 25px 12px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .tableSection {
+    padding: 24px;
+  }
+  .tableTitle {
+    height: 40px;
+  }
+  .tableInfo td {
+    padding: 16px 8px;
+    font-size: 12px;
+    height: 50px;
+  }
+  .tableTitle th {
+    font-size: 13px;
+    padding: 0px 0px 0px 8px;
+  }
+  .tableServices td {
+    padding: 16px 8px;
+    font-size: 12px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .tableSection {
+    padding: 24px;
+  }
+  .tableTitle {
+    height: 40px;
+    width: 200%;
+    overflow-x: scroll;
+  }
+  .tableInfo {
+    width: 200%;
+    overflow-x: scroll;
+  }
+  .tableInfo td {
+    padding: 16px 8px;
+    font-size: 12px;
+    height: 50px;
+  }
+  .tableTitle th {
+    font-size: 13px;
+    padding: 0px 0px 0px 8px;
+  }
+  .tableServices {
+    width: 200%;
+    overflow-x: scroll;
+  }
+  .tableServices td {
+    padding: 16px 8px;
+    font-size: 12px;
+    height: 50px;
+  }
+  /*//////////////////////////////*/
+
+  /* Scrollbar Styles */
+  .tableSection::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .tableSection::-webkit-scrollbar-thumb {
+    background-color: #ffae80;
+    border-radius: 8px;
+  }
+
+  .tableSection::-webkit-scrollbar-track {
+    background-color: #262626;
+    border-radius: 8px;
+  }
+}

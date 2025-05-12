@@ -1,0 +1,24 @@
+.BenefitsSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 60px;
+    font-family: "Raleway", sans-serif;
+    color: #1a1a1a;
+    align-items: center !important;
+    justify-content: center;
+  }
+  @media screen and (min-width: 600px) and (max-width: 1000px) {
+    .BenefitsSection {
+      margin-top: 40px;
+    }
+    .BenefitsSection {
+      gap: 30px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .BenefitsSection {
+      margin-top: 40px;
+    }
+  }
+  

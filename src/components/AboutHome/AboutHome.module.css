@@ -1,0 +1,105 @@
+
+.homeStyle {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 4px 3px #1e1e1e;
+  background-color: white;
+  border: 2px solid #262626;
+  border-radius: 10px;
+  padding: 150px 120px;
+  margin-top: 60px;
+  position: relative;
+}
+.partOne {
+  flex: 1;
+}
+.btnStyle {
+  background-color: white;
+  color: #333333;
+  font-size: 15px;
+  border: 2px solid #333333;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-family: "Outfit", sans-serif;
+}
+.homeTitle {
+  font-size: 34px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-top: 16px;
+  font-family: "Raleway", sans-serif;
+}
+.homeDescription {
+  color: #1a1a1a;
+  flex: 1;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+}
+.imageStyle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .homeStyle {
+    padding: 100px 75px;
+  }
+  .imageStyle {
+    width: 125px;
+  }
+  .btnStyle {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .homeStyle {
+    padding: 80px 60px;
+  }
+  .imageStyle {
+    width: 100px;
+  }
+  .homeDescription {
+    font-size: 12px;
+  }
+  .btnStyle {
+    font-size: 10px;
+  }
+  .homeTitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .homeStyle {
+    padding: 65px 20px 24px;
+    margin-top: 40px;
+  }
+  .homeTitle {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center
+  }
+  .homeStyle {
+    flex-flow: column;
+  }
+  .homeDescription {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .imageStyle {
+    width: 100px;
+  }
+  .btnStyle {
+    font-size: 14px;
+  }
+  .partOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  }
+}

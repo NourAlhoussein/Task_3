@@ -1,0 +1,141 @@
+.HomePage {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  font-family: "Outfit", sans-serif;
+}
+.HelloText {
+  border-bottom: 1px solid #262626;
+  display: inline-block;
+  font-size: 15px;
+  color: #262626;
+  font-weight: 400;
+}
+.TitleHome {
+  font-size: 42px;
+  color: #262626;
+  font-weight: 800;
+  margin-top: 10px;
+  font-family: "Raleway", sans-serif;
+}
+.TitleSpan {
+  color: #ff8d4d;
+}
+.DescriptionHome {
+  color: #333333;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.HomePhoto {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Photo {
+  width: 80%;
+}
+.HomeContent {
+  flex: 1;
+}
+.HomeBox {
+  display: flex;
+  flex-flow: row;
+  border: 2px solid #262626;
+  border-radius: 8px;
+  background-color: #ffefe5;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+  box-shadow: 4px 5px 1px #ffbe99;
+  margin-top: 25px;
+}
+.BoxItem {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.ItemNum {
+  font-weight: 800;
+  font-size: 20px;
+  color: #262626;
+  display: flex;
+  align-items: center;
+}
+.ItemNum span {
+  font-weight: 800;
+  font-size: 20px;
+  color: #262626;
+  display: flex;
+}
+.ItemText {
+  font-size: 10px;
+  color: #262626;
+  text-align: center;
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .HomeBox {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .ItemNum {
+    font-size: 12px;
+  }
+  .ItemNum span {
+    font-size: 10px;
+  }
+  .HelloText {
+    font-size: 12px;
+  }
+  .TitleHome {
+    font-size: 26px;
+  }
+  .DescriptionHome {
+    font-size: 10px;
+  }
+  .Photo {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .HomePage {
+    display: flex;
+    flex-flow: column;
+    margin-top: 40px;
+  }
+  .HomeBox {
+    width: 70%;
+  }
+  .Photo {
+    width: 90%;
+  }
+  .HomeContent {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .HomeBox {
+    flex-flow: column;
+    padding: 15px 0px 15px 0px;
+  }
+  .BoxItem {
+    width: 100%;
+  }
+  .Line {
+    width: 60%;
+    height: 1px;
+    background-color: #262626;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}

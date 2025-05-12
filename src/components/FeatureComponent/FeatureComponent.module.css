@@ -1,0 +1,51 @@
+.featureBox {
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  justify-content: center;
+  border: 2px solid #262626;
+  border-radius: 8px;
+  width: 30%;
+  box-shadow: 4px 4px 0px #262626;
+  background-color: white;
+  height: 160px;
+  position: relative;
+  padding: 85px 50px;
+}
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.description {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 16px;
+  font-family: "Outfit", sans-serif;
+}
+.iconDiv {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -18px;
+  left: 16px;
+  background-color: #ffdecc;
+  border: 1px solid #262626;
+  border-radius: 8px;
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    .featureBox {
+      width: 45%;
+      box-shadow: 3px 3px 0px #262626;
+      height: 210px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .featureBox {
+      width: 100%;
+      box-shadow: 3px 3px 0px #262626;
+    }
+  }

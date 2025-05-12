@@ -1,0 +1,90 @@
+.pageDiv {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 2px solid #262626;
+  border-radius: 8px;
+  width: 44%;
+  box-shadow: 4px 4px 0px #262626;
+  background-color: white;
+  text-align: center;
+  gap: 32px;
+  height: 320px;
+  padding: 10px;
+}
+.pageTitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  font-family: "Raleway", sans-serif;
+}
+.pageContent {
+  font-weight: 500;
+  font-size: 12px;
+  width: 80%;
+  font-family: "Outfit", sans-serif;
+}
+.buttonDiv {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.btnStyle {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  font-size: 12px;
+  cursor: pointer;
+  color: #262626;
+  background-color: #ffdecc;
+  border-radius: 4px;
+  border: 1px solid #262626;
+  box-shadow: 2px 2px 0px #1e1e1e;
+  padding: 12px 0px;
+  font-family: "Raleway", sans-serif;
+  margin: 16px 0px 0px 0px;
+}
+.btnText {
+  margin-right: 10px;
+}
+.lineStyle {
+  width: 80%;
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .pageDiv {
+    width: 40%;
+    gap: 24px;
+    height: 300px;
+    box-shadow: 3px 3px 0px #262626;
+  }
+  .pageTitle {
+    font-size: 18px;
+  }
+  .pageContent{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pageDiv {
+    width: 100%;
+    gap: 16px;
+    height: 260px;
+    box-shadow: 3px 3px 0px #262626;
+    padding: 5px;
+  }
+  .btnStyle {
+    width: 70%;
+  }
+  .pageTitle {
+    font-size: 16px;
+  }
+  .pageContent{
+    font-size: 10px;
+  }
+}

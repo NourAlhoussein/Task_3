@@ -1,0 +1,91 @@
+.BannerDiv {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: #ffdecc;
+  padding: 10px 0px 10px 0px;
+  border: 1px solid #262626;
+  border-radius: 8px;
+  font-family: "Outfit", sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.BannerText {
+  font-size: 16px;
+  margin-right: 10px;
+  z-index: 2;
+}
+.BannerArrow {
+  font-size: 16px;
+  z-index: 2;
+}
+.imageOne {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.imageTwo {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+}
+.imageThree {
+  position: absolute;
+  top: 0px;
+  left: 20%;
+}
+.imageFour {
+  position: absolute;
+  bottom: 0px;
+  right: 28%;
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .BannerDiv {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .BannerText,
+  .BannerArrow {
+    font-size: 12px;
+  }
+  .imageThree {
+    position: absolute;
+    top: 0px;
+    left: 10%;
+  }
+  .imageFour {
+    position: absolute;
+    bottom: 0px;
+    right: 10%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .BannerDiv {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .BannerText,
+  .BannerArrow {
+    font-size: 10px;
+  }
+  .imageThree {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+  }
+  .imageFour {
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+  }
+  .imageTwo {
+    right: -100px;
+  }
+  .imageOne {
+    left: -70px;
+  }
+}

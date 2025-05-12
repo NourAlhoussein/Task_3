@@ -1,0 +1,112 @@
+.awardsSection {
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  padding: 20px 0px;
+  margin: 60px auto auto auto;
+}
+.sliderStyle {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  padding: 20px 0px;
+}
+.part1 {
+  flex: 1;
+  display: flex;
+  justify-content: start;
+  padding-left: 34px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+.part2 {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  padding-right: 34px;
+}
+.arrowsDiv {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+.rightArrowDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.leftArrowDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+@media screen and (min-width: 1400px) {
+  .awardsSection {
+    max-width: 1400px;
+    margin: 60px auto 0px auto;
+  }
+}
+@media screen and (max-width: 1240px) and (min-width: 1000px) {
+  .awardsSection {
+    column-gap: 20px;
+  }
+  .part1 {
+    padding-left: 85px;
+    font-size: 14px;
+  }
+  .part2 {
+    padding-right: 85px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .awardsSection {
+    margin-top: 40px;
+    column-gap: 40px;
+  }
+  .part1 {
+    padding-left: 45px;
+    font-size: 14px;
+  }
+  .part2 {
+    padding-right: 45px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .awardsSection {
+    margin-top: 40px;
+  }
+  .part1 {
+    padding-left: 25px;
+    font-size: 14px;
+  }
+  .part2 {
+    padding-right: 25px;
+  }
+}

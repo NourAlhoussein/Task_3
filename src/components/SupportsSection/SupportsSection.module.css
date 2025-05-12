@@ -1,0 +1,24 @@
+.supportsSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 60px auto auto auto;
+    font-family: "Raleway", sans-serif;
+    color: #1a1a1a;
+    align-items: center !important;
+    justify-content: center;
+  }
+  @media screen and (min-width: 600px) and (max-width: 1000px) {
+    .supportsSection {
+      margin-top: 40px;
+    }
+    .supportsSection {
+      gap: 30px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .supportsSection {
+      margin-top: 40px;
+    }
+  }
+  
