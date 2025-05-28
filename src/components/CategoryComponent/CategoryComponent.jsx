@@ -33,7 +33,10 @@ function CategoryComponent({ item }) {
         return setSlideItemNum(1);
       }
     };
+    numOfSlide();
     window.addEventListener("resize", numOfSlide);
+    // Cleanup event listener on unmount
+    return () => window.removeEventListener("resize", numOfSlide);
   });
   return (
     <div className={styles.categoryCompStyle}>

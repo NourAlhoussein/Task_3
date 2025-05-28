@@ -62,10 +62,17 @@ function NavBar() {
         {items?.map((item, index) => {
           return (
             <li className={styles.NavItemSmall} key={index}>
-              <a href={item.link}>{item.content}</a>
+              <NavLink onClick={openAndCloseSideBAR} to={item.link}>
+                {item.content}
+              </NavLink>
             </li>
           );
         })}
+        <li className={styles.NavItemSmall}>
+          <NavLink onClick={openAndCloseSideBAR} to={Contact.link}>
+            {Contact.content}
+          </NavLink>
+        </li>
       </ul>
     </div>
   );
