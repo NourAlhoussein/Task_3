@@ -26,7 +26,7 @@ function CategoryComponent({ item }) {
     const numOfSlide = () => {
       const width = window.innerWidth;
       if (width > 950) {
-        return setSlideItemNum(3);
+        return setSlideItemNum(4);
       } else if (width <= 950 && width > 600) {
         return setSlideItemNum(2);
       } else if (width < 600) {
