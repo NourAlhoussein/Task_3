@@ -12,7 +12,7 @@ function OurHistory() {
               <span className={styles.lineStyle}></span>
               <img
                 className={styles.imgDate}
-                src="/assets/images/Abstract DesignAbout.png"
+                src="/Task_3/assets/images/Abstract DesignAbout.png"
                 alt=""
               />
               <div className={styles.yearStyle}>{history.year}</div>

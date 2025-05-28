@@ -15,12 +15,12 @@ function App() {
       <Banner />
       <NavBar />
       <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/About" exact element={<About />} />
-        <Route path="/Academics" exact element={<Academics />} />
-        <Route path="/Admissions" exact element={<Admissions />} />
-        <Route path="/StudentLife" exact element={<StudentLife />} />
-        <Route path="/Contact" exact element={<Contact />} />
+        <Route path="/Task_3" exact element={<Home />} />
+        <Route path="/Task_3/About" exact element={<About />} />
+        <Route path="/Task_3/Academics" exact element={<Academics />} />
+        <Route path="/Task_3/Admissions" exact element={<Admissions />} />
+        <Route path="/Task_3/StudentLife" exact element={<StudentLife />} />
+        <Route path="/Task_3/Contact" exact element={<Contact />} />
       </Routes>
       <Footer
         logoName="Little Learner"

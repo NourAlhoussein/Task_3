@@ -18,7 +18,7 @@ const awards = [
     icon: <MdElectricBolt />,
     title: "Environmental Stewardship Award",
     description:
-      "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.  ",
+      "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
   },
   {
     icon: <FaAward />,
@@ -36,7 +36,7 @@ const awards = [
     icon: <MdElectricBolt />,
     title: "Environmental Stewardship Award",
     description:
-      "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.  ",
+      "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
   }
 ];
 export default awards;

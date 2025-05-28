@@ -18,7 +18,7 @@ function ContactHome({
       <div className={styles.homeStyle}>
         <img
           className={styles.imageStyle}
-          src="/assets/images/Abstract Design About.png"
+          src="/Task_3/assets/images/Abstract Design About.png"
           alt=""
         />
         <div className={styles.partOne}>

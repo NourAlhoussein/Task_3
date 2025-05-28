@@ -33,13 +33,13 @@ const activities = [
     icon: <PiFlaskFill />,
     title: "Science Club",
     description:
-      "The science club allows young scientists to explore the wonders of science through fun experiments and hands-on learning. ",
+      "The science club allows young scientists to explore the wonders of science through fun experiments and hands-on learning.",
   },
   {
     icon: <BsStars />,
     title: "Cooking and Culinary Arts",
     description:
-      "Cooking classes introduce students to the joys of preparing and tasting delicious and healthy meals. ",
+      "Cooking classes introduce students to the joys of preparing and tasting delicious and healthy meals.",
   },
 ];
 export default activities;

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./NavBar.module.css";
 import { AiOutlineAlignRight } from "react-icons/ai";
-import logo from "../../../public/assets/images/logo.png";
 import items from "../../Data/NavbarData";
 import { logoName } from "../../Data/NavbarData";
 import { Contact } from "../../Data/NavbarData";
@@ -27,7 +26,11 @@ function NavBar() {
     <div className={`${styles.NavStyle} ${isScroll ? styles.topNavStyle : ""}`}>
       <div className={styles.LogoStyle}>
         <div>
-          <img className={styles.LogoPhoto} src={logo} alt="logo" />
+          <img
+            className={styles.LogoPhoto}
+            src="/Task_3/assets/images/logo.png"
+            alt="logo"
+          />
         </div>
         <div>{logoName}</div>
       </div>

@@ -9,7 +9,7 @@ const features = [
     icon: <FaBookOpen />,
     title: "Thematic Learning",
     description:
-      "Our curriculum is centered around engaging themes that capture children's imaginations. Each theme integrates multiple subjects, making learning enjoyable and relevant. ",
+      "Our curriculum is centered around engaging themes that capture children's imaginations. Each theme integrates multiple subjects, making learning enjoyable and relevant.",
   },
   {
     icon: <GiNetworkBars />,
@@ -21,7 +21,7 @@ const features = [
     icon: <HiPuzzlePiece />,
     title: "Language Immersion",
     description:
-      "Through language immersion programs, children have the opportunity to learn a second language, enhancing cognitive development and global awareness. ",
+      "Through language immersion programs, children have the opportunity to learn a second language, enhancing cognitive development and global awareness.",
   },
   {
     icon: <FaPaintBrush />,

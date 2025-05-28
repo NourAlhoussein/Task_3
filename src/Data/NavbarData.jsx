@@ -1,11 +1,11 @@
 const logoName = "Little Learner";
-const Contact ={link:"/contact" , content:"Contact"};
+const Contact ={link:"/Task_3/contact" , content:"Contact"};
 const NavbarData = [
-  { link: "/", content: "Home" },
-  { link: "/About", content: "About Us" },
-  { link: "/Academics", content: "Academics" },
-  { link: "/Admissions", content: "Admissions" },
-  { link: "/StudentLife", content: "Student Life" },
+  { link: "/Task_3", content: "Home" },
+  { link: "/Task_3/About", content: "About Us" },
+  { link: "/Task_3/Academics", content: "Academics" },
+  { link: "/Task_3/Admissions", content: "Admissions" },
+  { link: "/Task_3/StudentLife", content: "Student Life" },
 ];
 export default NavbarData;
 export { logoName };
